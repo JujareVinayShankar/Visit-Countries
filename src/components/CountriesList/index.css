@@ -1,0 +1,25 @@
+.bg-container {
+  height: 100vh;
+  background-color: #161624;
+  padding: 14px;
+}
+
+.countries-heading {
+  color: #f8fafc;
+  font-size: 24px;
+}
+
+.countries-container {
+  background-color: #1f1f2f;
+  max-height: 40vh;
+  overflow: auto;
+}
+
+.visited-countries-list {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-height: 36vh;
+  overflow: auto;
+}

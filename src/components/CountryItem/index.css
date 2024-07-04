@@ -1,0 +1,49 @@
+.country-item {
+  list-style-type: none;
+  color: #f1f5f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 2%;
+  border: 1px solid #334155;
+}
+
+.country-name {
+  font-size: 16px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.button {
+  width: 60px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  color: #ffffff;
+  outline: none;
+  margin-left: 10px;
+}
+
+.visited-button {
+  display: none;
+}
+
+.visit-button {
+  background-color: #3b82f6;
+  border: none;
+}
+
+.paragraph {
+  margin-right: 0px;
+}
+
+.para-visited {
+  margin-right: 4px;
+}
+
+.para-visit {
+  display: none;
+}

@@ -1,0 +1,29 @@
+.flag-item {
+  width: 20%;
+  list-style-type: none;
+  margin-right: 16px;
+}
+
+.flag-image {
+  width: 100%;
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flag-name {
+  color: #f1f5f9;
+  font-size: 18px;
+}
+
+.remove-button {
+  color: #cbd5e1;
+  border: 1px solid #cbd5e1;
+  background-color: transparent;
+  padding: 4px 8px;
+  font-size: 10px;
+  border-radius: 4px;
+}
